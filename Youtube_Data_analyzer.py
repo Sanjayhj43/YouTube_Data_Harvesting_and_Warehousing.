@@ -11,8 +11,8 @@ import re
 
 # Connect to MongoDB
 client = MongoClient("mongodb://localhost:27017/")
-db = client["Database name"]
-API_KEY = "ENTER YOUR_API_KEY"
+db = client["Your Database name"]
+API_KEY = "ENTER_YOUR_API_KEY"
 
 # Connect to PostgreSQL
 postgres_connection = psycopg2.connect(
